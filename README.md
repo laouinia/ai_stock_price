@@ -32,15 +32,15 @@
   - Dense_1 - a Dense layer with 1 unit, which is the output layer.
 
 Model Summary:
-_________________________________________________________________
-| Layer (type)   |             Output Shape      |        Param # |
-|----------------|-------------------------------|-----------------
-| LSTM_128 (LSTM)         |    (None, 60, 128)     |      66560
-| Dropout_0.2 (Dropout)   |    (None, 60, 128)     |      0
-| LSTM_64 (LSTM)          |    (None, 60, 64)      |      49408
-| LSTM_32 (LSTM)          |    (None, 32)          |      12416
-| Denso_16 (Dense)        |    (None, 16)          |      528
-| Dense_1 (Dense)         |    (None, 1)           |      17        |
+_____________________________________________________________________
+| Layer (type)          |         Output Shape      |        Param # |
+|-----------------------|---------------------------|----------------|
+| LSTM_128 (LSTM)       |    (None, 60, 128)        |      66560     |
+| Dropout_0.2 (Dropout) |    (None, 60, 128)        |      0         |
+| LSTM_64 (LSTM)        |    (None, 60, 64)         |      49408     |
+| LSTM_32 (LSTM)        |    (None, 32)             |      12416     |
+| Denso_16 (Dense)      |    (None, 16)             |      528       |
+| Dense_1 (Dense)       |    (None, 1)              |      17        |
 
 Total params: 128,929
 Trainable params: 128,929
