@@ -1,6 +1,6 @@
 # Stock Price Prediction Using ML : SPP
 
-## `SPP : Jupyter Notebook Version`
+## SPP : Jupyter Notebook Version
 
 ### Fetching and Preprocessing Data
 
