@@ -1,0 +1,7 @@
+# Ignore Logs / Settings / Temp /
+.vscode/
+logs/
+temp.py
+src/__pycache__/
+src/
+docker/
