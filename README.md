@@ -31,8 +31,8 @@
   - Denso_16 - a Dense layer with 16 units
   - Dense_1 - a Dense layer with 1 unit, which is the output layer.
 
-Model Summary:
-_____________________________________________________________________
+### Model Summary
+
 | Layer (type)          |         Output Shape      |        Param # |
 |-----------------------|---------------------------|----------------|
 | LSTM_128 (LSTM)       |    (None, 60, 128)        |      66560     |
